@@ -11,8 +11,8 @@ describe("isString", function() {
         assert.equal(isString([]), false);
         assert.equal(isString(/./), false);
         assert.equal(isString(function noop() {}), false);
+        assert.equal(isString(Object("")), false);
 
         assert.equal(isString(""), true);
-        assert.equal(isString(Object("")), true);
     });
 });

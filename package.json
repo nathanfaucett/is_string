@@ -7,6 +7,9 @@
     "url": "https://github.com/nathanfaucett/is_string.git"
   },
   "main": "src/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
   "keywords": [
     "is_string",
     "is_string.js"

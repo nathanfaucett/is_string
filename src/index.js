@@ -1,6 +1,6 @@
 module.exports = isString;
 
 
-function isString(obj) {
-    return typeof(obj) === "string" || false;
+function isString(value) {
+    return typeof(value) === "string" || false;
 }

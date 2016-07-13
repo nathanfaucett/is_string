@@ -1,4 +1,11 @@
 isString
 =======
 
-isString for the browser and node.js
+checks if value is a String
+
+```javascript
+var isString = require("@nathanfaucett/is_string");
+
+
+isString("string"); // true
+```
